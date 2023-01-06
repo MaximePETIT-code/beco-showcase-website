@@ -1,6 +1,7 @@
 import "./index.css";
 import Header from "./sections/header/Header";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import Intro from "./sections/intro/Intro";
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
         smooth: true,
       }}
     >
-      <Header data-scroll-container />
+      <main data-scroll-container>
+        <Header />
+        <Intro />
+      </main>
     </LocomotiveScrollProvider>
   );
 }
