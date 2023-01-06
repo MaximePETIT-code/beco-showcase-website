@@ -1,10 +1,16 @@
-import './index.css';
+import "./index.css";
+import Header from "./sections/header/Header";
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Beco showcase</h1>
-    </div>
+    <LocomotiveScrollProvider
+      options={{
+        smooth: true,
+      }}
+    >
+      <Header data-scroll-container />
+    </LocomotiveScrollProvider>
   );
 }
 
