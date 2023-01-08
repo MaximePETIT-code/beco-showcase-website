@@ -1,0 +1,27 @@
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20vh;
+}
+
+.advantages__item {
+  width: 20%;
+}
+
+.advantages__title {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.advantages__descr {
+  line-height: 1.2;
+}
+
+.advantages__item svg{
+  fill: #1db92d;
+  height: 15%;
+  width: 15%;
+  margin-bottom: 15px;
+  transform: translateX(-5px);
+}
