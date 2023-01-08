@@ -1,0 +1,39 @@
+.button{
+  display: flex;
+  margin-top: 1.7rem;
+}
+
+.button__link{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background-color: #1DB92D;
+  padding: 16px 32px;
+  border-radius: 50px;
+  transition: all 0.2s;
+}
+
+.button__link.button__primary:hover{
+  transition: all 0.2s;
+  background-color: #1b9127;
+}
+
+.button__link-arrow{
+  margin: 0 0 1px 10px;
+  fill: white;
+}
+
+.button__secondary{
+  background-color: black;
+  color: #1DB92D;
+}
+
+.button__secondary .button__link-arrow{
+  fill: #1DB92D;
+}
+.button__inverted{
+  background-color: transparent;
+  border: 1px #1DB92D solid;
+  padding: 15px 31px;
+}
