@@ -1,5 +1,6 @@
 import React from "react";
 import BigTitle from "../../components/bigTitle/BigTitle";
+import Button from "../../components/button/Button";
 import "./Header.css";
 
 let lines = []; // table that will contain the data concerning the rows of the grid on the header
@@ -17,7 +18,7 @@ for (let i = 1; i <= 4; i++) {
   lines.push(line);
 }
 
-export default function Header() {
+export default function Header({title, descr, cta}) {
   return (
     <header className="grid" id="grid">
       <div className="grid__wrap">
@@ -46,10 +47,20 @@ export default function Header() {
         })}
       </div>
       <div className="grid__content">
-        <BigTitle
-          title="Mesurer votre santé avec Beco"
-          className="grid__content-title"
-        />
+        <div className="grid__content-infos">
+          <BigTitle
+            title={title}
+            className="grid__content-title"
+          />
+          <p className="grid__content-descr">
+            {descr}
+          </p>
+          <Button
+            title={cta}
+            arrow={true}
+            link="#discover"
+          />
+        </div>
       </div>
     </header>
   );

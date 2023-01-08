@@ -68,14 +68,21 @@
   );
   position: absolute;
 }
-.grid__content-title {
+.grid__content-infos {
   color: #effaf0;
   position: absolute;
   height: 100vh;
   width: 70%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.grid__content-descr{
+  font-size: 1.3rem;
+  line-height: 1.3;
+  width: 70%;
 }
 
 @media screen and (min-width: 53em) {

@@ -5,7 +5,7 @@
 
 .button__link{
   text-decoration: none;
-  color: white;
+  color: #effaf0;
   font-weight: bold;
   font-size: 1.1rem;
   background-color: #1DB92D;
@@ -21,7 +21,7 @@
 
 .button__link-arrow{
   margin: 0 0 1px 10px;
-  fill: white;
+  fill: #effaf0;
 }
 
 .button__secondary{

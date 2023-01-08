@@ -11,7 +11,12 @@ function App() {
       }}
     >
       <main data-scroll-container>
-        <Header />
+        <Header
+          title="Mesurer votre santé avec Beco"
+          descr="Nous vous offrons des solutions innovantes pour prendre soin de votre santé
+            au quotidien via des objets connectés."
+          cta="Découvrir nos produits"
+        />
         <Intro />
       </main>
     </LocomotiveScrollProvider>
