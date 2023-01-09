@@ -1,0 +1,12 @@
+.outro.content{
+  margin-top: 0;
+  margin-bottom: 10vh;
+}
+
+.outro .content__text{
+  font-size: 3.5rem;
+}
+
+.content__button{
+  margin: 0 auto 0 auto;
+}

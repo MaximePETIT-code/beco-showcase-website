@@ -4,6 +4,7 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import Intro from "./sections/intro/Intro";
 import Advantages from "./sections/advantages/Advantages";
 import Footer from "./sections/footer/Footer";
+import Outro from "./sections/outro/Outro";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             },
           ]}
         />
+        <Outro/>
         <Footer
           menu={[
             {
