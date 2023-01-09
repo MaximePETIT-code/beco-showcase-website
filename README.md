@@ -1,3 +1,12 @@
+# Equipe H3 - Beco
+
+Membres de l'équipe :
+Romain Monfret
+Ariles Sekkai
+Maxime Petit
+Thanh-Long Pham
+Flavien Thel
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
