@@ -6,10 +6,11 @@ export default function Button({
   link,
   title,
   arrow = false,
+  target = "_self"
 }) {
   return (
     <div className="button">
-      <a href={link} className={`button__link button__${type}`}>
+      <a href={link} target={target} className={`button__link button__${type}`}>
         {title}
         {arrow && (
           <svg

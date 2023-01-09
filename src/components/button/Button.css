@@ -1,39 +1,44 @@
-.button{
+.button {
   display: flex;
   margin-top: 1.7rem;
 }
 
-.button__link{
+.button__link {
   text-decoration: none;
   color: #effaf0;
   font-weight: bold;
   font-size: 1.1rem;
-  background-color: #1DB92D;
+  background-color: #1db92d;
   padding: 16px 32px;
   border-radius: 50px;
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
-.button__link.button__primary:hover{
-  transition: all 0.2s;
+.button__link.button__primary:hover {
+  transition: all 0.3s;
   background-color: #1b9127;
 }
 
-.button__link-arrow{
+.button__link.button__inverted:hover {
+  transition: all 0.3s;
+  background-color: #1db92d;
+}
+
+.button__link-arrow {
   margin: 0 0 1px 10px;
   fill: #effaf0;
 }
 
-.button__secondary{
+.button__secondary {
   background-color: black;
-  color: #1DB92D;
+  color: #1db92d;
 }
 
-.button__secondary .button__link-arrow{
-  fill: #1DB92D;
+.button__secondary .button__link-arrow {
+  fill: #1db92d;
 }
-.button__inverted{
+.button__inverted {
   background-color: transparent;
-  border: 1px #1DB92D solid;
+  border: 1px #1db92d solid;
   padding: 15px 31px;
 }
