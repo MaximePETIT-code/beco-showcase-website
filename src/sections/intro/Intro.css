@@ -1,34 +1,24 @@
-
 .content {
-  padding: 3rem;
-  margin-top: 20vh;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
+	padding: 3rem;
+	margin-top: 20vh;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
 }
 
 .content__text {
-  font-size: 2.25rem;
-  font-size: clamp(1rem, 4vw, 2.25rem);
-  line-height: 1.3;
-
+	font-size: 40px;
+	line-height: 1.5;
+	max-width: 800px;
 }
 
 .content__text--centered {
-  margin: auto;
+	margin: auto;
 }
 
 .content__text--green {
-  color: var(--color-green);
-  font-weight: bold;
-}
-
-@media screen and (min-width: 53em) {
-  .content__text {
-    max-width: 800px;
-    width: 50vw;
-    min-width: calc(300px - 6rem);
-  }
+	color: var(--color-green);
+	font-weight: bold;
 }

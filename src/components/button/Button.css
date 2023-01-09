@@ -1,44 +1,44 @@
 .button {
-  display: flex;
-  margin-top: 1.7rem;
+	display: flex;
+	margin-top: 1.7rem;
 }
 
 .button__link {
-  text-decoration: none;
-  color: #effaf0;
-  font-weight: bold;
-  font-size: 1.1rem;
-  background-color: #1db92d;
-  padding: 16px 32px;
-  border-radius: 50px;
-  transition: all 0.3s;
+	text-decoration: none;
+	color: #effaf0;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #1db92d;
+	padding: 16px 32px;
+	border-radius: 50px;
+	transition: all 0.3s;
 }
 
 .button__link.button__primary:hover {
-  transition: all 0.3s;
-  background-color: #1b9127;
+	transition: all 0.3s;
+	background-color: #1b9127;
 }
 
 .button__link.button__inverted:hover {
-  transition: all 0.3s;
-  background-color: #1db92d;
+	transition: all 0.3s;
+	background-color: #1db92d;
 }
 
 .button__link-arrow {
-  margin: 0 0 1px 10px;
-  fill: #effaf0;
+	margin: 0 0 1px 10px;
+	fill: #effaf0;
 }
 
 .button__secondary {
-  background-color: black;
-  color: #1db92d;
+	background-color: black;
+	color: #1db92d;
 }
 
 .button__secondary .button__link-arrow {
-  fill: #1db92d;
+	fill: #1db92d;
 }
 .button__inverted {
-  background-color: transparent;
-  border: 1px #1db92d solid;
-  padding: 15px 31px;
+	background-color: transparent;
+	border: 1px #1db92d solid;
+	padding: 15px 31px;
 }

@@ -1,12 +1,13 @@
-.outro.content{
-  margin-top: 0;
-  margin-bottom: 10vh;
+.outro.content {
+	margin-top: 48px;
 }
 
-.outro .content__text{
-  font-size: 3.5rem;
+.outro .content__text {
+	font-size: 40px;
+	text-align: center;
 }
 
-.content__button{
-  margin: 0 auto 0 auto;
+.content__button {
+	margin: 0 auto 0 auto;
+	text-align: center;
 }
