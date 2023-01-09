@@ -1,0 +1,105 @@
+.explain__container{
+    display: flex;
+    
+}
+.grid__explain{
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    padding-left: 4rem;
+    background: linear-gradient(245.28deg, #0F4815 5.34%, #0A0A0A 71.67%);
+    height: 910px;
+ 
+    
+}
+.Image{
+
+    object-fit: cover;
+    position: absolute;
+    height: 910px;
+    opacity: 0.6;
+    right: 0;
+}
+.flex__col{
+    display: flex;
+    flex-direction: column;
+    padding-top: 9rem;
+    padding-right: 11rem;
+    
+}
+
+h2{
+    font-size: 3.5vw;
+    margin-bottom: 3.5rem;
+    line-height: 1;
+    font-family: Alegreya, serif;
+    font-weight: 700;
+    width: 90%;
+  }
+
+  .flex__col p{
+      font-family: "Inter",sans-serif;
+      font-size: 1.5rem;
+      
+      width: 80%;
+  }
+  .explain__container div p{
+    font-family: "Inter",sans-serif;
+    font-size: 1.1rem;
+
+  }
+
+  .icon-eclair{
+    margin-bottom: 1rem;
+  }
+  .icon-bluetooth{
+    margin-bottom: 1.94rem;
+  }
+
+  .explain h3{
+    font-family: "Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-bottom: 1.2rem;
+
+  }
+  .mb-20{
+    margin-bottom: 4rem;
+  }
+ .phone{
+     position: absolute;
+     z-index: 10;
+     bottom:0px;
+     left: -200px;
+     width: 20rem;
+     object-fit: cover;
+ }
+ .col2{
+    position: relative;
+ }
+ .green{
+   color: #1DB92D;
+ }
+ 
+
+
+@media only screen and (max-width: 800px) {
+  .col2{
+    display: none;
+  }
+  .grid__explain{
+    display: flex;
+    overflow: hidden;
+    padding: 3rem;
+    height: auto;
+  }
+  .flex__col{
+    padding: 0rem;
+  }
+  h2{
+    font-size: 1.6rem;
+  }
+  .flex__col p{
+    font-size: 1.1rem;
+    width: 85%;
+  }
+}

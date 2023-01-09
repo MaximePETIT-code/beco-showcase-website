@@ -3,6 +3,7 @@ import Header from "./sections/header/Header";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import Intro from "./sections/intro/Intro";
 import Advantages from "./sections/advantages/Advantages";
+import Explication from "./sections/explication/Explication"
 import Footer from "./sections/footer/Footer";
 import Outro from "./sections/outro/Outro";
 
@@ -49,6 +50,7 @@ function App() {
             },
           ]}
         />
+        <Explication />
         <Outro/>
         <Footer
           menu={[
